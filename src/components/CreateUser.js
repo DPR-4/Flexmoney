@@ -4,6 +4,13 @@ export default function CreateUser(){
 
     const [inputs,setInputs] =useState({})
 
+
+    const onclick=()=>{
+        window.alert("success");
+    }
+
+    
+
     const handlechange=(event)=>{
         const name =event.target.name;
         const value =event.target.value;
@@ -20,7 +27,7 @@ export default function CreateUser(){
             <h1>Create User</h1>
 
             <form onSubmit={handleSubmit}>
-                <table cellSpacing="10">
+                <table cellSpacing="10" class="center">
                     <tbody>
                     <tr>
                         <th>
@@ -70,7 +77,7 @@ export default function CreateUser(){
                     <tr>
                        
                         <td colspan="2" align="center">
-                        <button>Save</button>
+                        <button id="save">Save</button>
                         </td>
                     </tr>
                     </tbody>

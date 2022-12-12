@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 604px;
 }
 
 nav ul {
@@ -9,4 +10,18 @@ nav ul {
 nav ul li{
   display: inline-block;
   padding: 10px;
+ 
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* style {  
+  backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")",
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+}; */
+

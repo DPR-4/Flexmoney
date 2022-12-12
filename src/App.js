@@ -3,11 +3,16 @@ import './App.css';
 import CreateUser from './components/CreateUser';
 import EditUser from './components/EditUser';
 import ListUser from './components/ListUser';
-
+import image from "./img/img-fol/park.jpg"; 
 function App() {
+
+
+  
   return (
-    <div className="App">
-      <h5>React CRUD operations using PHP API and MySQL</h5>
+    <div className="App"  style={{ backgroundImage:`url(${image})`,backgroundRepeat:"repeat",backgroundSize:"contain", 
+    
+    }}>
+      <h1>Yoga Webapp</h1>
 
       <BrowserRouter>
         <nav>
